@@ -65,49 +65,18 @@ El proyecto sigue el patrón **RAG (Retrieval-Augmented Generation)**:
 
 ## 🛠️ Tecnologías y herramientas utilizadas
 
-Tecnología
-
-Uso en el proyecto
-
-**Python 3.12**
-
-Lenguaje base del proyecto
-
-**Streamlit**
-
-Interfaz de chat web
-
-**LangChain** (`langchain`, `langchain-classic`, `langchain-community`, `langchain-text-splitters`)
-
-Orquestación del pipeline RAG: carga de documentos, chunking, cadenas de recuperación y generación
-
-**langchain-cohere**
-
-Integración de LangChain con los modelos de Cohere
-
-**Cohere**
-
-Modelo de embeddings (`embed-multilingual-v3.0`) y modelo de lenguaje (`command-a-03-2025`)
-
-**FAISS** (`faiss-cpu`)
-
-Base de datos vectorial para búsqueda por similitud
-
-**PyPDF**
-
-Extracción de texto de los documentos PDF
-
-**python-dotenv**
-
-Manejo de variables de entorno (API Key) en local
-
-**Streamlit Community Cloud**
-
-Plataforma de despliegue
-
-**GitHub**
-
-Control de versiones y repositorio del proyecto
+| Tecnología | Uso en el proyecto |
+|---|---|
+| **Python 3.12** | Lenguaje base del proyecto |
+| **Streamlit** | Interfaz de chat web |
+| **LangChain** (`langchain`, `langchain-classic`, `langchain-community`, `langchain-text-splitters`) | Orquestación del pipeline RAG: carga de documentos, chunking, cadenas de recuperación y generación |
+| **langchain-cohere** | Integración de LangChain con los modelos de Cohere |
+| **Cohere** | Modelo de embeddings (`embed-multilingual-v3.0`) y modelo de lenguaje (`command-a-03-2025`) |
+| **FAISS** (`faiss-cpu`) | Base de datos vectorial para búsqueda por similitud |
+| **PyPDF** | Extracción de texto de los documentos PDF |
+| **python-dotenv** | Manejo de variables de entorno (API Key) en local |
+| **Streamlit Community Cloud** | Plataforma de despliegue |
+| **GitHub** | Control de versiones y repositorio del proyecto |
 
 ----------
 
