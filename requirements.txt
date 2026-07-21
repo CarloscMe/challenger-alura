@@ -3,6 +3,7 @@ langchain
 langchain-classic
 langchain-community
 langchain-cohere
+langchain-text-splitters
 cohere
 faiss-cpu
 python-dotenv

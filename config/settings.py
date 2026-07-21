@@ -18,7 +18,7 @@ COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 EMBEDDING_MODEL = "embed-multilingual-v3.0"
 
 # ---- Parametros del modelo de lenguaje (LLM) ----
-LLM_MODEL = "command-r"
+LLM_MODEL = "command-a-03-2025"
 TEMPERATURE = 0.2
 
 # ---- Parametros de chunking (division de texto) ----

@@ -1,6 +1,6 @@
 # codigo de src/ingest.py
 from langchain_community.document_loaders import PyPDFDirectoryLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from config.settings import DATA_DIR, CHUNK_SIZE, CHUNK_OVERLAP
 
