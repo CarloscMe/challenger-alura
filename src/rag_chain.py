@@ -1,8 +1,8 @@
 # codigo de src/rag_chain.py
 from langchain_cohere import ChatCohere
-from langchain.prompts import ChatPromptTemplate
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain.chains import create_retrieval_chain
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_classic.chains.combine_documents import create_stuff_documents_chain
+from langchain_classic.chains import create_retrieval_chain
 
 from config.settings import COHERE_API_KEY, LLM_MODEL, TEMPERATURE, TOP_K
 
